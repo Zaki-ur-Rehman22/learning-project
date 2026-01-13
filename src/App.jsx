@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+// Import Pages
+import AboutPage from './pages/AboutUs';
 
 function App() {
   
 
   return (
     <div className='app'>
-      <h1>Vite + React</h1>
+      <AboutPage />
     </div>
   )
 }
